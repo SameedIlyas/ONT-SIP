@@ -1,6 +1,5 @@
 # Mininet
-Download and run mininet on a VM or linux based device following the instructions on https://mininet.org/download/ and check the runnnings using https://mininet.org/walkthrough/.
-Once set up and running, you can use the CLI to set up  topologies and can also connect remote controllers like POX.  
+Download and run Mininet on a virtual machine or Linux-based device by following the instructions provided on https://mininet.org/download/, and verify its functionality using the guide at https://mininet.org/walkthrough/. Once it is set up and running, you can use the CLI to create topologies and connect remote controllers such as POX.
 
 ![WhatsApp Image 2023-11-08 at 22 09 24_d30a94d1](https://github.com/SameedIlyas/ONTInternship/assets/127698326/156f1fd7-8e56-41a9-a3eb-c1da8034ff89)  
 
@@ -9,7 +8,7 @@ Once set up and running, you can use the CLI to set up  topologies and can also 
 ![WhatsApp Image 2023-11-08 at 22 09 25_4d0fa493](https://github.com/SameedIlyas/ONTInternship/assets/127698326/77ed4ef2-ac69-40ac-a8d1-01b9f5437b61)  
 
 
-# Firewall in POX
+# CustomTopo and POX firewall
 The custom topology file can be run using the following command:  
 ~~~
 sudo mn --custom custom --topo custom
