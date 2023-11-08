@@ -8,8 +8,16 @@ Once set up and running, you can use the CLI to set up  topologies and can also 
 
 ![WhatsApp Image 2023-11-08 at 22 09 25_4d0fa493](https://github.com/SameedIlyas/ONTInternship/assets/127698326/77ed4ef2-ac69-40ac-a8d1-01b9f5437b61)  
 
-# Firewall in POX
 
+# Firewall in POX
+The custom topology file can be run using the following command:  
+~~~
+sudo mn --custom custom --topo custom
+~~~
+For the Firewall to be immplemented using the Pox controller navigate to the directory where you have POX installed and run the POX controller specifying the path to the script as an argument. for example if it is saved as firewall-pox.py in the same directory, you can run the following code:  
+~~~
+./pox.py firewall-pox forwarding.l2_learning
+~~~
 
 # ONOS Installation
 ONOS can be installed using the following github repository: https://github.com/jatj/sdn_onos/blob/master/INSTALL.md  
